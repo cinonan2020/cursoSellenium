@@ -1,0 +1,51 @@
+{
+  "solicitudExitosaFormularioContactUs": [
+    {
+      "subjectHeading"      : "Webmaster",
+      "email"               : "demouser911@gmail.com",
+      "orderReference"      : "Order 123-45678",
+      "filePath"            : "src\\main\\resources\\fotos\\skye.jpg",
+      "mensajeConfirmacion" : [
+        {
+          "message"             : "Your message has been successfully sent to our team.",
+          "background-color"    : "rgba(85, 198, 94, 1)",
+          "border-color"        : "rgb(72, 177, 81)",
+          "color"               : "rgba(255, 255, 255, 1)"
+        }
+      ]
+    }
+  ],
+  "cp001_loginExitoso": [
+    { "email":"foster123@gmail.com",
+      "password":"foster123"}
+  ],
+  "cp002_loginNoExitoso": [
+    { "email":"folks222@gmail.com",
+      "password":"folks88",
+      "mensajeError": "There is 1 error\nAuthentication failed."
+    }
+  ],
+  "cp003_verificarDireccionRegistrada": [
+    { "email":"foster124@gmail.com",
+      "password":"foster124",
+      "direccionCompleta": [
+        {
+          "address"      : "8376 NW 68TH ST # 1",
+          "city"         : "Miami",
+          "state"        : "Florida",
+          "zipCode"      : "33166",
+          "country"      : "United States"
+        }]
+    }
+  ],
+  "cp004_verificarMiInformacionRegistrada": [
+    { "firstName":"Marco",
+      "lastName":"Mondragon",
+      "email":"foster125@gmail.com",
+      "password":"foster125",
+      "birthDay":"27",
+      "birthMonth":"April",
+      "birthYear":"1988"
+    }
+  ]
+}
